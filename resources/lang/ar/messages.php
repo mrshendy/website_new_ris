@@ -98,7 +98,7 @@ return [
     'why_choose_progress2_title' => 'تصميم مبتكر',
     'why_choose_progress2_value' => '76%',
     'why_choose_about_btn' => 'من نحن',
-    'why_choose_founder_name' => 'توماس أليسون',
+    'why_choose_founder_name' => 'باسم عبد العزيز',
     'why_choose_founder_position' => 'المؤسس والرئيس التنفيذي',
 
     // Sliding Text Section

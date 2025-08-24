@@ -1,5 +1,5 @@
 @extends('layouts.layout1onepage')
-@section('title', 'Home One || Red Intelligent Solutions  || IT Solutions')
+@section('title', 'Home One || techguru || IT Solutions & Technology Laravel Template')
 
 
 @section('content')
@@ -53,7 +53,7 @@
                         <div class="brand-two__wrapper">
                             <div class="brand-two__inner">
                                 <div class="brand-two__left">
-                                    <div class="main-slider__trustpilot-box">
+                                    <div class="main-slider__trustpilot-box d-none">
                                         <ul class="list-unstyled main-slider__trustpilot-img-list">
                                             <li>
                                                 <div class="main-slider__trustpilot-img">
@@ -724,11 +724,11 @@
                         class="@if (app()->getLocale() == 'ar') section-title__titlee @else section-title__title title-animation @endif">
                         {!! __('messages.services_title_part1') !!}
                         {!! __('messages.services_title_part2') !!}
-                        <img src="{{ asset('assets/images/resources/LogoRedO.png') }}" alt="">
+                        <img src="{{ asset('assets/images/resources/LogoRed.png') }}" alt="">
                         {!! __('messages.services_title_part3') !!}
                     </h2>
                 </div>
-                <a href="{{ route('services') }}" class="services-two__round-text-box">
+                <a href="#services" class="services-two__round-text-box">
                     <div class="services-two__round-text-box-outer">
                         <div class="services-two__round-text-box-inner">
                             <div class="services-two__curved-circle">
@@ -932,8 +932,8 @@
                             </div>
                             <div class="why-choose-one__client-box">
                                 <div class="why-choose-one__client-img">
-                                    <img src="{{ asset('assets/images/resources/why-choose-one-client-img.jpg') }}"
-                                        alt="">
+                                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
+                                        alt="" style="height: 46px;">
                                 </div>
                                 <div class="why-choose-one__client-content">
                                     <h3>{{ __('messages.why_choose_founder_name') }}</h3>
@@ -968,43 +968,43 @@
         <div class="sliding-text-three__wrap">
             <ul class="sliding-text-three__list list-unstyled marquee_mode">
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
-                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
+                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
-                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
+                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
-                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
+                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
-                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
+                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
-                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
+                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
-                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
+                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
-                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
+                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
-                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
+                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
             </ul>
@@ -1074,7 +1074,7 @@
     <!-- Process Two End -->
 
     <!-- Portfolio Two Start -->
-    {{-- <section class="portfolio-two" id="portfolio">
+    <section class="portfolio-two" id="portfolio">
         <div class="portfolio-two__shape-1 float-bob-y">
             <img src="{{ asset('assets/images/shapes/portfolio-two-shape-1.png') }}" alt="">
         </div>
@@ -1098,7 +1098,116 @@
                 <div class="portfolio-two__carousel owl-carousel owl-theme"
                     style="{{ app()->getLocale() == 'ar' ? 'direction: ltr;' : '' }}">
                     <!--Portfolio Two Single Start-->
-                    
+                    {{-- <div class="item">
+                        <div class="portfolio-two__single-box">
+                            <ul class="portfolio-two__box list-unstyled">
+                                <li>
+                                    <div class="portfolio-two__box-content">
+                                        <div class="single-portfolio-two__bg"
+                                            style="background-image: url({{ asset('assets/images/project/portfolio-2-1.jpg') }});">
+                                        </div>
+                                        <div class="portfolio-two__title">
+                                            <h3><a href="{{ route('portfolio-details') }}">
+                                                    {!! __('messages.portfolio_item1_title') !!}
+                                                </a></h3>
+                                        </div>
+                                        <div class="portfolio-two__content-box">
+                                            <div class="portfolio-two__icon">
+                                                <a href="{{ asset('assets/images/project/portfolio-2-1.jpg') }}"
+                                                    class="img-popup"><span class="icon-right-arrow-1"></span></a>
+                                            </div>
+                                            <div class="portfolio-two__title-box">
+                                                <h3 class="portfolio-two__title-2"><a
+                                                        href="{{ route('portfolio-details') }}">
+                                                        {!! __('messages.portfolio_item1_title') !!}
+                                                    </a></h3>
+                                                <p class="portfolio-two__text">{{ __('messages.portfolio_item_text') }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="active">
+                                    <div class="portfolio-two__box-content">
+                                        <div class="single-portfolio-two__bg"
+                                            style="background-image: url({{ asset('assets/images/project/portfolio-2-2.jpg') }});">
+                                        </div>
+                                        <div class="portfolio-two__title">
+                                            <h3><a href="{{ route('portfolio-details') }}">
+                                                    {!! __('messages.portfolio_item2_title') !!}
+                                                </a></h3>
+                                        </div>
+                                        <div class="portfolio-two__content-box">
+                                            <div class="portfolio-two__icon">
+                                                <a href="{{ asset('assets/images/project/portfolio-2-2.jpg') }}"
+                                                    class="img-popup"><span class="icon-right-arrow-1"></span></a>
+                                            </div>
+                                            <div class="portfolio-two__title-box">
+                                                <h3 class="portfolio-two__title-2"><a
+                                                        href="{{ route('portfolio-details') }}">
+                                                        {!! __('messages.portfolio_item2_title') !!}
+                                                    </a></h3>
+                                                <p class="portfolio-two__text">{{ __('messages.portfolio_item_text') }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="portfolio-two__box-content">
+                                        <div class="single-portfolio-two__bg"
+                                            style="background-image: url({{ asset('assets/images/project/portfolio-2-3.jpg') }});">
+                                        </div>
+                                        <div class="portfolio-two__title">
+                                            <h3><a href="{{ route('portfolio-details') }}">
+                                                    {!! __('messages.portfolio_item3_title') !!}
+                                                </a></h3>
+                                        </div>
+                                        <div class="portfolio-two__content-box">
+                                            <div class="portfolio-two__icon">
+                                                <a href="{{ asset('assets/images/project/portfolio-2-3.jpg') }}"
+                                                    class="img-popup"><span class="icon-right-arrow-1"></span></a>
+                                            </div>
+                                            <div class="portfolio-two__title-box">
+                                                <h3 class="portfolio-two__title-2"><a
+                                                        href="{{ route('portfolio-details') }}">
+                                                        {!! __('messages.portfolio_item3_title') !!}
+                                                    </a></h3>
+                                                <p class="portfolio-two__text">{{ __('messages.portfolio_item_text') }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="portfolio-two__box-content">
+                                        <div class="single-portfolio-two__bg"
+                                            style="background-image: url({{ asset('assets/images/project/portfolio-2-4.jpg') }});">
+                                        </div>
+                                        <div class="portfolio-two__title">
+                                            <h3><a href="{{ route('portfolio-details') }}">
+                                                    {!! __('messages.portfolio_item4_title') !!}
+                                                </a></h3>
+                                        </div>
+                                        <div class="portfolio-two__content-box">
+                                            <div class="portfolio-two__icon">
+                                                <a href="{{ asset('assets/images/project/portfolio-2-4.jpg') }}"
+                                                    class="img-popup"><span class="icon-right-arrow-1"></span></a>
+                                            </div>
+                                            <div class="portfolio-two__title-box">
+                                                <h3 class="portfolio-two__title-2"><a
+                                                        href="{{ route('portfolio-details') }}">
+                                                        {!! __('messages.portfolio_item4_title') !!}
+                                                    </a></h3>
+                                                <p class="portfolio-two__text">{{ __('messages.portfolio_item_text') }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> --}}
                     <!--Portfolio Two Single End-->
 
                     <!-- Repeated items use same translation keys -->
@@ -1114,7 +1223,7 @@
                                             </div>
                                             <div class="portfolio-two__title">
                                                 <h3><a href="{{ route('portfolio-details', ['id' => $project->id]) }}">
-                                                       
+                                                        {{-- {!! __('messages.portfolio_item1_title') !!} --}}
                                                         @if (App::getLocale() == 'en')
                                                             {{ $project->name }}
                                                         @elseif (App::getLocale() == 'ar')
@@ -1132,7 +1241,7 @@
                                                 <div class="portfolio-two__title-box">
                                                     <h3 class="portfolio-two__title-2"><a
                                                             href="{{ route('portfolio-details', ['id' => $project->id]) }}">
-                                                           
+                                                            {{-- {!! __('messages.portfolio_item1_title') !!} --}}
                                                             @if (App::getLocale() == 'en')
                                                                 {{ $project->name }}
                                                             @elseif (App::getLocale() == 'ar')
@@ -1155,7 +1264,84 @@
                                         </div>
                                     </li>
                                 @endforeach
-                             
+                                {{-- <li class="active">
+                                    <div class="portfolio-two__box-content">
+                                        <div class="single-portfolio-two__bg"
+                                            style="background-image: url({{ asset('assets/images/project/portfolio-2-2.jpg') }});">
+                                        </div>
+                                        <div class="portfolio-two__title">
+                                            <h3><a href="{{ route('portfolio-details') }}">
+                                                    {!! __('messages.portfolio_item2_title') !!}
+                                                </a></h3>
+                                        </div>
+                                        <div class="portfolio-two__content-box">
+                                            <div class="portfolio-two__icon">
+                                                <a href="{{ asset('assets/images/project/portfolio-2-2.jpg') }}"
+                                                    class="img-popup"><span class="icon-right-arrow-1"></span></a>
+                                            </div>
+                                            <div class="portfolio-two__title-box">
+                                                <h3 class="portfolio-two__title-2"><a
+                                                        href="{{ route('portfolio-details') }}">
+                                                        {!! __('messages.portfolio_item2_title') !!}
+                                                    </a></h3>
+                                                <p class="portfolio-two__text">{{ __('messages.portfolio_item_text') }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="portfolio-two__box-content">
+                                        <div class="single-portfolio-two__bg"
+                                            style="background-image: url({{ asset('assets/images/project/portfolio-2-3.jpg') }});">
+                                        </div>
+                                        <div class="portfolio-two__title">
+                                            <h3><a href="{{ route('portfolio-details') }}">
+                                                    {!! __('messages.portfolio_item3_title') !!}
+                                                </a></h3>
+                                        </div>
+                                        <div class="portfolio-two__content-box">
+                                            <div class="portfolio-two__icon">
+                                                <a href="{{ asset('assets/images/project/portfolio-2-3.jpg') }}"
+                                                    class="img-popup"><span class="icon-right-arrow-1"></span></a>
+                                            </div>
+                                            <div class="portfolio-two__title-box">
+                                                <h3 class="portfolio-two__title-2"><a
+                                                        href="{{ route('portfolio-details') }}">
+                                                        {!! __('messages.portfolio_item3_title') !!}
+                                                    </a></h3>
+                                                <p class="portfolio-two__text">{{ __('messages.portfolio_item_text') }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="portfolio-two__box-content">
+                                        <div class="single-portfolio-two__bg"
+                                            style="background-image: url({{ asset('assets/images/project/portfolio-2-4.jpg') }});">
+                                        </div>
+                                        <div class="portfolio-two__title">
+                                            <h3><a href="{{ route('portfolio-details') }}">
+                                                    {!! __('messages.portfolio_item4_title') !!}
+                                                </a></h3>
+                                        </div>
+                                        <div class="portfolio-two__content-box">
+                                            <div class="portfolio-two__icon">
+                                                <a href="{{ asset('assets/images/project/portfolio-2-4.jpg') }}"
+                                                    class="img-popup"><span class="icon-right-arrow-1"></span></a>
+                                            </div>
+                                            <div class="portfolio-two__title-box">
+                                                <h3 class="portfolio-two__title-2"><a
+                                                        href="{{ route('portfolio-details') }}">
+                                                        {!! __('messages.portfolio_item4_title') !!}
+                                                    </a></h3>
+                                                <p class="portfolio-two__text">{{ __('messages.portfolio_item_text') }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li> --}}
                             </ul>
                         </div>
                     </div>
@@ -1163,7 +1349,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
     <!-- Portfolio Two End -->
 
     <!-- Pricing Two Start -->
@@ -1427,7 +1613,7 @@
             </li>
         </ul>
         <div class="contact-two__bg"
-            style="background-image: url({{ asset('assets/images/backgrounds/pexels-zeleboba-32854186.jpg') }});">
+            style="background-image: url({{ asset('assets/images/backgrounds/contact-two-bg.jpg') }});">
         </div>
         <div class="contact-two__shape-1 float-bob-y">
             <img src="{{ asset('assets/images/shapes/contact-two-shape-1.png') }}" alt="">
@@ -1478,7 +1664,7 @@
                                 <div class="content">
                                     <span>{{ __('messages.contact_address_label') }}</span>
                                     <p>Alexandria, Egypt
-                                        Dubai, UAE</p>
+                                        <br> Dubai, UAE</p>
                                 </div>
                             </li>
                         </ul>
@@ -1523,10 +1709,10 @@
                                             placeholder="{{ __('messages.contact_form_phone_placeholder') }}" required>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6">
+                                <div class="col-xl-6 col-lg-6 d-none">
                                     <h4 class="contact-one__input-title">{{ __('messages.contact_form_subject_label') }}
                                     </h4>
-                                    <div class="contact-one__input-box">
+                                    <div class="contact-one__input-box ">
                                         <div class="select-box">
                                             <select class="selectmenu wide" name="subject">
                                                 <option selected>{{ __('messages.contact_form_name_placeholder') }}

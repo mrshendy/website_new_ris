@@ -98,7 +98,7 @@ return [
     'why_choose_progress2_title' => 'Design Innovant',
     'why_choose_progress2_value' => '76%',
     'why_choose_about_btn' => 'À Propos',
-    'why_choose_founder_name' => 'Thomas Alison',
+    'why_choose_founder_name' => 'Bassem Abdelaziz',
     'why_choose_founder_position' => 'Fondateur & PDG',
 
     // Sliding Text Section

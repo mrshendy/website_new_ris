@@ -93,9 +93,9 @@
                             <img src="{{ asset('assets/images/translate.png') }}" alt="" style="width: 17px;">
                         </button>
                         <ul class="dropdown-menu p-2">
-                            <li><a style="color: black" href="{{ route('change.language', 'ar') }}">العربية</a></li>
+                            {{-- <li><a style="color: black" href="{{ route('change.language', 'ar') }}">العربية</a></li> --}}
                             <li><a style="color: black" href="{{ route('change.language', 'en') }}">English</a></li>
-                            <li><a style="color: black" href="{{ route('change.language', 'fr') }}">Français</a></li>
+                            {{-- <li><a style="color: black" href="{{ route('change.language', 'fr') }}">Français</a></li> --}}
                         </ul>
                     </div>
                 </div>

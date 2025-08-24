@@ -94,7 +94,7 @@ return [
     'why_choose_progress2_title' => 'Innovation Design',
     'why_choose_progress2_value' => '76%',
     'why_choose_about_btn' => 'About Us',
-    'why_choose_founder_name' => 'Thomas Alison',
+    'why_choose_founder_name' => 'Bassem Abdelaziz',
     'why_choose_founder_position' => 'Founder & CEO',
     // Sliding Text Section
     'sliding_text_ui_ux' => 'UI/UX Design',
