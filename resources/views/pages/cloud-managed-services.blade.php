@@ -134,14 +134,14 @@
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="services-details__img-box-img">
-                                        <img src="{{ asset('assets/images/services/services-details-img-box-img-1.jpg') }}"
-                                            alt="">
+                                        <img src="{{ asset('assets/images/backgrounds/pexels-pixabay-267350000.jpg') }}"
+                                            alt="" style="height: 400px;">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="services-details__img-box-img">
-                                        <img src="{{ asset('assets/images/services/services-details-img-box-img-2.jpg') }}"
-                                            alt="">
+                                        <img src="{{ asset('assets/images/backgrounds/pexels-asphotograpy-95916.jpg') }}"
+                                            alt="" style="height: 400px;">
                                     </div>
                                 </div>
                             </div>
@@ -198,7 +198,7 @@
                             </div>
                         </div>
                         <div class="services-details__bottom-img">
-                            <img src="{{ asset('assets/images/services/services-details-bottom-img.jpg') }}"
+                            <img src="{{ asset('assets/images/backgrounds/pexels-goumbik-577210.jpg') }}"
                                 alt="">
                         </div>
                         <h4 class="services-details__title-4">{{ __('messages.d.get_started_title') }}</h4>

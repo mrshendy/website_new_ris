@@ -294,7 +294,7 @@
                         </div>
                         <div class="testimonial-two__client-info">
                             <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-1.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/LogoRedO.png') }}" alt="" style="height: 64px">
                             </div>
                             <div class="testimonial-two__client-content">
                                 <h4 class="testimonial-two__client-name">
@@ -326,7 +326,7 @@
                         </div>
                         <div class="testimonial-two__client-info">
                             <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-1.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/LogoRedO.png') }}" alt="" style="height: 64px">
                             </div>
                             <div class="testimonial-two__client-content">
                                 <h4 class="testimonial-two__client-name">
@@ -359,7 +359,7 @@
                         </div>
                         <div class="testimonial-two__client-info">
                             <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-2.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/LogoRedO.png') }}" alt="" style="height: 64px">
                             </div>
                             <div class="testimonial-two__client-content">
                                 <h4 class="testimonial-two__client-name">
@@ -392,7 +392,7 @@
                         </div>
                         <div class="testimonial-two__client-info">
                             <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-3.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/LogoRedO.png') }}" alt="" style="height: 64px">
                             </div>
                             <div class="testimonial-two__client-content">
                                 <h4 class="testimonial-two__client-name">
@@ -426,7 +426,7 @@
                         </div>
                         <div class="testimonial-two__client-info">
                             <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-1.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/LogoRedO.png') }}" alt="" style="height: 64px">
                             </div>
                             <div class="testimonial-two__client-content">
                                 <h4 class="testimonial-two__client-name">
@@ -458,7 +458,7 @@
                         </div>
                         <div class="testimonial-two__client-info">
                             <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-1.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/LogoRedO.png') }}" alt="" style="height: 64px">
                             </div>
                             <div class="testimonial-two__client-content">
                                 <h4 class="testimonial-two__client-name">

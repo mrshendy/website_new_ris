@@ -136,13 +136,13 @@
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="services-details__img-box-img">
-                                        <img src="{{ asset('assets/images/services/services-details-img-box-img-1.jpg') }}"
+                                        <img src="{{ asset('assets/images/backgrounds/pexels-thisisengineering-3861969.jpg') }}"
                                             alt="">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="services-details__img-box-img">
-                                        <img src="{{ asset('assets/images/services/services-details-img-box-img-2.jpg') }}"
+                                        <img src="{{ asset('assets/images/backgrounds/pexels-cottonbro-6153354.jpg') }}"
                                             alt="">
                                     </div>
                                 </div>
@@ -200,7 +200,7 @@
                             </div>
                         </div>
                         <div class="services-details__bottom-img">
-                            <img src="{{ asset('assets/images/services/services-details-bottom-img.jpg') }}"
+                            <img src="{{ asset('assets/images/backgrounds/pexels-googledeepmind-18069697.jpg') }}"
                                 alt="">
                         </div>
                         <h4 class="services-details__title-4">{{ __('messages.ai_services.get_started_title') }}</h4>
