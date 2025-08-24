@@ -968,43 +968,43 @@
         <div class="sliding-text-three__wrap">
             <ul class="sliding-text-three__list list-unstyled marquee_mode">
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
-                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
+                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
-                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
+                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
-                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
+                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
-                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
+                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
-                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
+                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
-                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
+                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
-                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
+                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
                 <li>
-                    <img src="{{ asset('assets/images/resources/LogoRed.png') }}"
-                        style="height: 30px ; width: 150px; object-fit: contain;" alt="" srcset="">
+                    <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
+                        style="height: 40px ; width: 150px; object-fit: contain;" alt="" srcset="">
                     <span class="icon-star"></span>
                 </li>
             </ul>
