@@ -34,7 +34,7 @@
                     </div>
                     <ul class="list-unstyled main-slider-two__menu">
                         <li><a href="{{ route('about') }}">{{ __('messages.slider_menu_help') }}</a></li>
-                        <li><a href="{{ route('contact') }}">{{ __('messages.slider_menu_support') }}</a></li>
+                        <li><a href="#contact">{{ __('messages.slider_menu_support') }}</a></li>
 
                     </ul>
                     <div class="main-slider-two__social-box">
