@@ -329,7 +329,7 @@ return [
         'items' => [
             ['text' => 'About', 'link' => 'about'],
             ['text' => 'Services', 'link' => 'services'],
-            ['text' => 'Portfolio', 'link' => 'portfolio'],
+            // ['text' => 'Portfolio', 'link' => 'portfolio'],
             ['text' => 'Contact', 'link' => 'contact'],
             ['text' => 'Testimonial', 'link' => 'testimonial'],
             ['text' => 'Blog', 'link' => 'blog'],

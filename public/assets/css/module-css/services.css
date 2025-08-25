@@ -161,7 +161,7 @@
     font-weight: 500;
     color: var(--techguru-gray);
     counter-increment: count 1;
-    content: "0"counter(count);
+    content: "0" counter(count);
     transition: 500ms;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -409,8 +409,10 @@
 }
 
 .services-two__top .section-title__title img {
-    width: 120px;
+    width: 100px;
+    object-fit: contain;
     border-radius: 20px;
+    margin: 5px;
 }
 
 .services-two__bottom {
@@ -480,7 +482,7 @@
     font-weight: 700;
     color: var(--techguru-white);
     counter-increment: count 1;
-    content: "0"counter(count);
+    content: "0" counter(count);
     transition: 500ms;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;

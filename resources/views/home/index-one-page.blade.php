@@ -724,7 +724,7 @@
                         class="@if (app()->getLocale() == 'ar') section-title__titlee @else section-title__title title-animation @endif">
                         {!! __('messages.services_title_part1') !!}
                         {!! __('messages.services_title_part2') !!}
-                        <img src="{{ asset('assets/images/resources/LogoRed.png') }}" alt="">
+                        <img src="{{ asset('assets/images/resources/LogoRedO.png') }}" alt="">
                         {!! __('messages.services_title_part3') !!}
                     </h2>
                 </div>
@@ -926,14 +926,14 @@
                         </ul>
                         <div class="why-choose-one__btn-and-client-info">
                             <div class="why-choose-one__btn-box">
-                                <a href="{{ route('about') }}" class="thm-btn">
+                                <a href="#about" class="thm-btn">
                                     {{ __('messages.why_choose_about_btn') }}<span class="icon-right-arrow"></span>
                                 </a>
                             </div>
                             <div class="why-choose-one__client-box">
                                 <div class="why-choose-one__client-img">
                                     <img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
-                                        alt="" style="height: 46px;">
+                                        alt="" style="height: 46px; object-fit: contain;">
                                 </div>
                                 <div class="why-choose-one__client-content">
                                     <h3>{{ __('messages.why_choose_founder_name') }}</h3>
