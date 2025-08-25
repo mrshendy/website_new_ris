@@ -1420,7 +1420,7 @@
             </li>
         </ul>
         <div class="contact-two__bg"
-            style="background-image: url({{ asset('assets/images/backgrounds/contact-two-bg.jpg') }});">
+            style="background-image: url({{ asset('assets/images/backgrounds/pexels-zeleboba-32854186.jpg') }});">
         </div>
         <div class="contact-two__shape-1 float-bob-y">
             <img src="{{ asset('assets/images/shapes/contact-two-shape-1.png') }}" alt="">
