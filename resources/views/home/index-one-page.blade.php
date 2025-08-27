@@ -1,5 +1,5 @@
 @extends('layouts.layout1onepage')
-@section('title', 'Home One || techguru || IT Solutions & Technology Laravel Template')
+@section('title', 'Home One || Red Intelligent Solutions || IT Solutions')
 
 
 @section('content')
@@ -177,12 +177,12 @@
                                     <p class="main-slider-two__text">{!! __('messages.slider_text') !!}</p>
                                     <div class="main-slider-two__btns-box">
                                         <div class="main-slider-two__btn-box-1">
-                                            <a href="{{ route('contact') }}"
+                                            <a href="#contact"
                                                 class="thm-btn">{{ __('messages.slider_get_started') }}<span
                                                     class="icon-right-arrow"></span></a>
                                         </div>
                                         <div class="main-slider-two__btn-box-2">
-                                            <a href="{{ route('about') }}"
+                                            <a href="#about"
                                                 class="thm-btn">{{ __('messages.slider_read_more') }}<span
                                                     class="icon-right-arrow"></span></a>
                                         </div>

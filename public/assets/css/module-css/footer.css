@@ -905,8 +905,9 @@
     display: inline-flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
-    font-size: 18px;
+    white-space: nowrap;
+    gap: 0px;
+    font-size: 11px;
     color: var(--techguru-gray);
     font-weight: 500;
     -webkit-transition: all 500ms ease;

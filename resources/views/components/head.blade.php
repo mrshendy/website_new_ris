@@ -3,10 +3,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@yield('title', 'Home One || Red Intelligent Solutions || IT Solutions ')</title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/backgrounds/WhatsAppImage2025-08-21at5.18.13PM.jpeg') }}" />
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/backgrounds/WhatsAppImage2025-08-21at5.18.13PM.jpeg') }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/backgrounds/IconLightVanillaShade.png') }}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/backgrounds/IconLightVanillaShade.png') }}" />
     <link rel="icon" type="image/png" sizes="16x16"
-        href="{{ asset('assets/images/backgrounds/WhatsAppImage2025-08-21at5.18.13PM.jpeg') }}" />
+        href="{{ asset('assets/images/backgrounds/IconLightVanillaShade.png') }}" />
     <link rel="manifest" href="{{ asset('assets/images/favicons/site.webmanifest') }}" />
     <meta name="description" content="IT Solutions & Technology Laravel Template " />
 

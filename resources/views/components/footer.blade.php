@@ -47,8 +47,9 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="site-footer-two__about">
                         <div class="site-footer-two__logo">
-                            <a href="{{ route('index') }}"><img src="{{ asset('assets/images/resources/LogoRedO.png') }}"
-                                    alt="" style="height: 50px"></a>
+                            <a href="{{ route('index') }}"><img
+                                    src="{{ asset('assets/images/resources/LogoRedO.png') }}" alt=""
+                                    style="height: 50px"></a>
                         </div>
                         <ul class="list-unstyled site-footer-two__contact-list">
                             <li>
@@ -118,22 +119,19 @@
                     <div class="footer-widget-two__services">
                         <h4 class="footer-widget-two__title">Our Services</h4>
                         <ul class="footer-widget-two__quick-links-list list-unstyled">
-                            <li><a href="{{ route('services') }}"><span class="icon-right-arrow-2"></span>UI/UX
-                                    Design</a>
+                            <li><a href="{{ route('advanced-technology') }}"><span
+                                        class="icon-right-arrow-2"></span>Software
+                                    Development
+                                    Solutions</a>
                             </li>
-                            <li><a href="{{ route('about') }}"><span class="icon-right-arrow-2"></span>Website
-                                    Design</a>
+                            <li><a href="{{ route('data-protection-privacy') }}"><span
+                                        class="icon-right-arrow-2"></span>AI-Powered
+                                    Solutions</a>
                             </li>
-                            <li><a href="{{ route('pricing') }}"><span class="icon-right-arrow-2"></span>Web
-                                    Development</a></li>
-                            <li><a href="{{ route('about') }}"><span class="icon-right-arrow-2"></span>Product
-                                    Design</a>
-                            </li>
-                            <li><a href="{{ route('blog') }}"><span class="icon-right-arrow-2"></span>Online
-                                    Branding</a>
-                            </li>
-                            <li><a href="{{ route('contact') }}"><span class="icon-right-arrow-2"></span>Personal
-                                    Branding</a></li>
+                            <li><a href="{{ route('cloud-managed-services') }}"><span
+                                        class="icon-right-arrow-2"></span>Digital Marketing
+                                    Solutions</a></li>
+
                         </ul>
                     </div>
                 </div>

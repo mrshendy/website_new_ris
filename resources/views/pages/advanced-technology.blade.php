@@ -1,5 +1,5 @@
 @extends('layouts.layout4')
-@section('title', 'Advanced Technology || techguru || IT Solutions & Technology Laravel Template')
+@section('title', 'Advanced Technology || Red Intelligent Solutions || IT Solutions ')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/faq.css') }}">
 @endpush
