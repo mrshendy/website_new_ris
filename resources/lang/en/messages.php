@@ -404,7 +404,7 @@ return [
     'faq_main_title' => 'Frequently Asked <span>Questions</span>',
     'faq_description' => 'Get answers to the most common questions about our products, services, and policies.',
     'get_support' => 'Get Support',
-    'support_phone' => '99 (00) 567 780',
+    'support_phone' => '+971 586 67 7283',
     'get_in_touch' => 'Get in Touch',
 
     // FAQ Questions

@@ -240,7 +240,7 @@
                             </div>
                             <div class="content">
                                 <span>{{ __('messages.get_support') }}</span>
-                                <p><a href="tel:9900567780">{{ __('messages.support_phone') }}</a></p>
+                                <p><a href="https://wa.me/971586677283">{{ __('messages.support_phone') }}</a></p>
                             </div>
                         </div>
                         <div class="faq-two__btn-box">
