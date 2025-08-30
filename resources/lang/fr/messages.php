@@ -175,9 +175,9 @@ return [
 
     // Contact Form
     'contact_form_name_label' => 'Nom Complet',
-    'contact_form_name_placeholder' => 'Thomas Alison',
+    'contact_form_name_placeholder' => 'Bassem Ab...',
     'contact_form_email_label' => 'Adresse Email',
-    'contact_form_email_placeholder' => 'thomas@domain.com',
+    'contact_form_email_placeholder' => 'example@gmail.com',
     'contact_form_phone_label' => 'Numéro de Téléphone',
     'contact_form_phone_placeholder' => '12 (00) 123 4567 890',
     'contact_form_subject_label' => 'Sujet',

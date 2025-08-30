@@ -1767,12 +1767,12 @@
                         </div>
                         <div class="testimonial-two__client-info">
                             <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-1.jpg') }}" alt="">
+                                
                             </div>
                             <div class="testimonial-two__client-content">
                                 <h4 class="testimonial-two__client-name">
                                     <a
-                                        href="{{ route('testimonials') }}">{{ __('messages.testimonial_client1_name') }}</a>
+                                        href="#">{{ __('messages.testimonial_client1_name') }}</a>
                                 </h4>
                                 <p class="testimonial-two__sub-title">{{ __('messages.testimonial_client1_position') }}
                                 </p>
@@ -1799,12 +1799,12 @@
                         </div>
                         <div class="testimonial-two__client-info">
                             <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-1.jpg') }}" alt="">
+                                
                             </div>
                             <div class="testimonial-two__client-content">
                                 <h4 class="testimonial-two__client-name">
                                     <a
-                                        href="{{ route('testimonials') }}">{{ __('messages.testimonial_client2_name') }}</a>
+                                        href="#">{{ __('messages.testimonial_client2_name') }}</a>
                                 </h4>
                                 <p class="testimonial-two__sub-title">{{ __('messages.testimonial_client2_position') }}
                                 </p>
@@ -1832,12 +1832,12 @@
                         </div>
                         <div class="testimonial-two__client-info">
                             <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-2.jpg') }}" alt="">
+                                
                             </div>
                             <div class="testimonial-two__client-content">
                                 <h4 class="testimonial-two__client-name">
                                     <a
-                                        href="{{ route('testimonials') }}">{{ __('messages.testimonial_client3_name') }}</a>
+                                        href="#">{{ __('messages.testimonial_client3_name') }}</a>
                                 </h4>
                                 <p class="testimonial-two__sub-title">{{ __('messages.testimonial_client3_position') }}
                                 </p>
@@ -1865,12 +1865,12 @@
                         </div>
                         <div class="testimonial-two__client-info">
                             <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-3.jpg') }}" alt="">
+                                
                             </div>
                             <div class="testimonial-two__client-content">
                                 <h4 class="testimonial-two__client-name">
                                     <a
-                                        href="{{ route('testimonials') }}">{{ __('messages.testimonial_client4_name') }}</a>
+                                        href="#">{{ __('messages.testimonial_client4_name') }}</a>
                                 </h4>
                                 <p class="testimonial-two__sub-title">{{ __('messages.testimonial_client4_position') }}
                                 </p>
@@ -1899,12 +1899,12 @@
                         </div>
                         <div class="testimonial-two__client-info">
                             <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-1.jpg') }}" alt="">
+                                
                             </div>
                             <div class="testimonial-two__client-content">
                                 <h4 class="testimonial-two__client-name">
                                     <a
-                                        href="{{ route('testimonials') }}">{{ __('messages.testimonial_client5_name') }}</a>
+                                        href="#">{{ __('messages.testimonial_client5_name') }}</a>
                                 </h4>
                                 <p class="testimonial-two__sub-title">{{ __('messages.testimonial_client5_position') }}
                                 </p>
@@ -1931,12 +1931,12 @@
                         </div>
                         <div class="testimonial-two__client-info">
                             <div class="testimonial-two__client-img">
-                                <img src="{{ asset('assets/images/testimonial/testimonial-2-1.jpg') }}" alt="">
+                                
                             </div>
                             <div class="testimonial-two__client-content">
                                 <h4 class="testimonial-two__client-name">
                                     <a
-                                        href="{{ route('testimonials') }}">{{ __('messages.testimonial_client6_name') }}</a>
+                                        href="#">{{ __('messages.testimonial_client6_name') }}</a>
                                 </h4>
                                 <p class="testimonial-two__sub-title">{{ __('messages.testimonial_client6_position') }}
                                 </p>

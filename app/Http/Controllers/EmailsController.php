@@ -21,7 +21,7 @@ class EmailsController extends Controller
 
         // 2. إرسال الإيميل
         try {
-            Mail::to('Bassemabdelaziz7@gmail.com')->send(new WelcomeMail($details));
+            Mail::to('Bassem.abdulaziz@redintelligentsolutions.com')->send(new WelcomeMail($details));
 
             // 3. إرجاع رسالة نجاح
             // return back()->with('success', 'Your message has been sent successfully!');
